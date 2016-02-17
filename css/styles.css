@@ -2,6 +2,7 @@ body {
   color: cornflowerblue;
   width: 10000pc;
   background-image: url('../images/jbs-website-mockup.jpg');
+  background-repeat: no-repeat;
 }
 
 .photo-container {
