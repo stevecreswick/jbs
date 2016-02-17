@@ -1,18 +1,18 @@
 body {
   color: cornflowerblue;
   width: 10000pc;
+  background-image: url('../images/jbs-website-mockup.jpg');
 }
 
 .photo-container {
 
   display: inline-block;
   margin-left: 50px;
-  height: 100px;
-  width: 100px;
+  height: 50%;
+  width: 50%;
+  text-align: middle;
+  vertical-align: center;
 
-
-  min-height: 100px;
-  min-width: 100px;
 
   -webkit-box-shadow: -3px 4px 5px 0px rgba(125,125,125,1);
   -moz-box-shadow: -3px 4px 5px 0px rgba(125,125,125,1);
