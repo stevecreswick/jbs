@@ -9,37 +9,18 @@ body {
   position: absolute;
 }
 
-
-/* Cover and Credits */
-  .album-cover {
-    min-height: 100%;
-    margin: -10px -10px -10px -10px;
-    height: 100%;
-    width: 4.3%;
-    top: 0;
-    left: 0;
-    bottom:0;
-    display: inline-block;
-    position: absolute;
-    background-image: url('https://images.unsplash.com/photo-1436407886995-41f8f5ee43ad?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=6f2e9aea816890a2eff88bc302840266');
-    background-repeat: no-repeat;
-    background-size: contain;
-    content: " "
-  }
-
-  .credits-container {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    width: 4.45%;
-    background-color: green;
-    margin-top: -10px;
-    background-image: url('https://images.unsplash.com/photo-1439556838232-994e4c0d3b7c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=2adfe9888f170b1f1431e249182c1937');
-  }
+/* Containers */
 
   .wide-container {
-
+    width: 4.45%;
+    margin-top: -10px;
+    height: 100%;
+    content: " ";
+    position: absolute;
+    top:0;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
   }
 
   .small-container {
@@ -51,7 +32,6 @@ body {
     top: 10%;
   }
 
-/* Containers */
   .photo-container {
     background-color: red;
 
@@ -74,17 +54,16 @@ body {
     background-size: cover;
   }
 
-  .full-page-video {
-    width: 4.45%;
-    margin-top: -10px;
-    height: 100%;
-    content: " ";
-    position: absolute;
-    top:0;
-  }
-
-
 /* Website Container Sequence */
+
+  .album-cover {
+    min-height: 100%;
+    margin: -10px -10px -10px -10px;
+    width: 4.3%;
+    left: 0;
+    bottom:0;
+    background-image: url('https://images.unsplash.com/photo-1436407886995-41f8f5ee43ad?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=6f2e9aea816890a2eff88bc302840266');
+  }
 
   .photo-container-one {
     left: 5.35%;
@@ -117,7 +96,6 @@ body {
   .photo-container-six {
     left: 27.33%;
   }
-
 
   .full-page-video-one {
     left: 30.47%;
@@ -196,6 +174,11 @@ body {
   .full-page-video-three {
     left: 91.11%;
     background-image: url('https://images.unsplash.com/photo-1443890923422-7819ed4101c0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d08144fcf8610012628be9e43708f226');
+  }
+
+  .credits-container {
+    right: 0;
+    background-image: url('https://images.unsplash.com/photo-1439556838232-994e4c0d3b7c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=2adfe9888f170b1f1431e249182c1937');
   }
 
 /* Photo Frame Images */
