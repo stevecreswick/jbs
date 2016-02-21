@@ -9,247 +9,265 @@ body {
   position: absolute;
 }
 
-.album-cover {
-  /*max-width: 1024px;*/
-  min-height: 100%;
-  margin: -10px -10px -10px -10px;
-  height: 100%;
-  width: 4.3%;
-  top: 0;
-  left: 0;
-  bottom:0;
-  display: inline-block;
-  position: absolute;
-  background-image: url('https://upload.wikimedia.org/wikipedia/en/9/98/Foo_fighters_in_your_honor.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 
-.photo-container {
-  display: inline-block;
-  height: 75%;
-  width: 2.09%;
-  text-align: middle;
-  vertical-align: center;
-  background-color: red;
+/* Cover and Credits */
+  .album-cover {
+    min-height: 100%;
+    margin: -10px -10px -10px -10px;
+    height: 100%;
+    width: 4.3%;
+    top: 0;
+    left: 0;
+    bottom:0;
+    display: inline-block;
+    position: absolute;
+    background-image: url('https://images.unsplash.com/photo-1436407886995-41f8f5ee43ad?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=6f2e9aea816890a2eff88bc302840266');
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: " "
+  }
 
-  -webkit-box-shadow: -3px 4px 5px 0px rgba(125,125,125,1);
-  -moz-box-shadow: -3px 4px 5px 0px rgba(125,125,125,1);
-  box-shadow: -3px 4px 5px 0px rgba(125,125,125,1);
-}
+  .credits-container {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 4.45%;
+    background-color: green;
+    margin-top: -10px;
+    background-image: url('https://images.unsplash.com/photo-1439556838232-994e4c0d3b7c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=2adfe9888f170b1f1431e249182c1937');
+  }
 
-.inner-photo {
-  background-color: green;
-  height: 85%;
-  width: 85%;
-  margin: 7.5% 7.5% 7.5% 7.5%;
-}
+  .wide-container {
 
-.lyric-container {
-  display: inline-block;
-  height: 75%;
-  width: 2.09%;
-  text-align: middle;
-}
+  }
 
-.full-page-video {
-  width: 4.45%;
-  background-color: blue;
-  margin-top: -10px;
-  height: 100%;
-}
+  .small-container {
+    display: inline-block;
+    height: 75%;
+    width: 2.09%;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+  }
 
-.credits-container {
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 100%;
-  width: 4.45%;
-  background-color: green;
-  margin-top: -10px;
-}
+/* Containers */
+  .photo-container {
+    background-color: red;
 
-/* Group One */
+    -webkit-box-shadow: -3px 4px 5px 0px rgba(125,125,125,1);
+    -moz-box-shadow: -3px 4px 5px 0px rgba(125,125,125,1);
+    box-shadow: -3px 4px 5px 0px rgba(125,125,125,1);
+  }
 
-/* Sequence One */
-.photo-container-one {
-  position: absolute;
-  top: 10%;
-  left: 5.35%;
-}
+  .inner-photo {
+    height: 85%;
+    width: 85%;
+    margin: 7.5% 7.5% 7.5% 7.5%;
+    content: " "
+  }
 
-.photo-container-two {
-  position: absolute;
-  top: 10%;
-  left: 8.49%;
-}
+  .parallax-container {
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
 
-
-.lyric-container-one {
-  position: absolute;
-  top: 10%;
-  left: 11.63%;
-}
-
-/* Sequence Two */
-.photo-container-three {
-  position: absolute;
-  top: 10%;
-  left: 14.77%;
-}
-
-.photo-container-four {
-  position: absolute;
-  top: 10%;
-  left: 17.91%;
-}
-
-.lyric-container-two {
-  position: absolute;
-  top: 10%;
-  left: 21.05%;
-}
-
-/* Sequence Three */
-.photo-container-five {
-  position: absolute;
-  top: 10%;
-  left: 24.19%;
-}
-
-.photo-container-six {
-  position: absolute;
-  top: 10%;
-  left: 27.33%;
-}
-
-.full-page-video-one {
-  position: absolute;;
-  top:0;
-  left: 30.47%;
-}
+  .full-page-video {
+    width: 4.45%;
+    margin-top: -10px;
+    height: 100%;
+    content: " ";
+    position: absolute;
+    top:0;
+  }
 
 
-/* Group Two */
+/* Website Container Sequence */
 
-/* Sequence Four */
-.photo-container-seven {
-  position: absolute;
-  top: 10%;
-  left: 35.82%;
-}
+  .photo-container-one {
+    left: 5.35%;
+  }
 
-.photo-container-eight {
-  position: absolute;
-  top: 10%;
-  left: 38.96%;
-}
+  .photo-container-two {
+    left: 8.49%;
+  }
 
-.lyric-container-three {
-  position: absolute;
-  top: 10%;
-  left: 42.10%;
-}
+  .lyric-container-one {
+    left: 11.63%;
+  }
 
-/* Sequence Five */
-.photo-container-nine {
-  position: absolute;
-  top: 10%;
-  left: 45.24%;
-}
+  .photo-container-three {
+    left: 14.77%;
+  }
 
-.photo-container-ten {
-  position: absolute;
-  top: 10%;
-  left: 48.38%;
-}
+  .photo-container-four {
+    left: 17.91%;
+  }
 
-.lyric-container-four {
-  position: absolute;
-  top: 10%;
-  left: 51.52%;
-}
+  .lyric-container-two {
+    left: 21.05%;
+  }
 
-/* Sequence Six */
+  .photo-container-five {
+    left: 24.19%;
+  }
 
-.photo-container-eleven {
-  position: absolute;
-  top: 10%;
-  left: 54.66%;
-}
+  .photo-container-six {
+    left: 27.33%;
+  }
 
-.photo-container-twelve {
-  position: absolute;
-  top: 10%;
-  left: 57.8%;
-}
 
-.full-page-video-two {
-  position: absolute;
-  top: 0;
-  left: 60.94%;
-}
+  .full-page-video-one {
+    left: 30.47%;
+    background-image: url('https://images.unsplash.com/photo-1447877015176-3099cb49cd6a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1f5b6605ce035d751113e7c92cfd2116')
+  }
 
-/* Group Three */
+  .photo-container-seven {
+    left: 35.82%;
+  }
 
-/* Sequence Seven */
+  .photo-container-eight {
+    left: 38.96%;
+  }
 
-.photo-container-thirteen {
-  position: absolute;
-  top: 10%;
-  left: 66.29%;
-}
+  .lyric-container-three {
+    left: 42.10%;
+  }
 
-.photo-container-fourteen {
-  position: absolute;
-  top: 10%;
-  left: 69.43%;
-}
+  .photo-container-nine {
+    left: 45.24%;
+  }
 
-.lyric-container-five {
-  position: absolute;
-  top: 10%;
-  left: 72.57%;
-}
+  .photo-container-ten {
+    left: 48.38%;
+  }
 
-/* Sequence Eight */
+  .lyric-container-four {
+    left: 51.52%;
+  }
 
-.photo-container-fifteen {
-  position: absolute;
-  top: 10%;
-  left: 75.71%;
-}
+  .photo-container-eleven {
+    left: 54.66%;
+  }
 
-.photo-container-sixteen {
-  position: absolute;
-  top: 10%;
-  left: 78.55%;
-}
+  .photo-container-twelve {
+    left: 57.8%;
+  }
 
-.lyric-container-six {
-  position: absolute;
-  top: 10%;
-  left: 81.69%;
-}
+  .full-page-video-two {
+    left: 60.94%;
+    background-image: url('https://images.unsplash.com/photo-1446776858070-70c3d5ed6758?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=deb97ae31a798491f0cfd1afda07e6be')
+  }
 
-/* Sequence Nine */
+  .photo-container-thirteen {
+    left: 66.29%;
+  }
 
-.photo-container-seventeen {
-  position: absolute;
-  top: 10%;
-  left: 84.83%;
-}
+  .photo-container-fourteen {
+    left: 69.43%;
+  }
 
-.photo-container-eighteen {
-  position: absolute;
-  top: 10%;
-  left: 87.97%;
-}
+  .lyric-container-five {
+    left: 72.57%;
+  }
 
-.full-page-video-three {
-  position: absolute;
-  top: 0;
-  left: 91.11%;
-}
+  .photo-container-fifteen {
+    left: 75.71%;
+  }
 
-/* Credits */
+  .photo-container-sixteen {
+    left: 78.55%;
+  }
+
+  .lyric-container-six {
+    left: 81.69%;
+  }
+
+  .photo-container-seventeen {
+    left: 84.83%;
+  }
+
+  .photo-container-eighteen {
+    left: 87.97%;
+  }
+
+  .full-page-video-three {
+    left: 91.11%;
+    background-image: url('https://images.unsplash.com/photo-1443890923422-7819ed4101c0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d08144fcf8610012628be9e43708f226');
+  }
+
+/* Photo Frame Images */
+
+  .parallax-section-1 {
+    background-image: url('https://images.unsplash.com/photo-1452800185063-6db5e12b8e2e?crop=entropy&dpr=2&fit=crop&fm=jpg&h=725&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1225');
+  }
+
+  .parallax-section-2 {
+    background-image: url('https://images.unsplash.com/photo-1452716726610-30ed68426a6b?crop=entropy&dpr=2&fit=crop&fm=jpg&h=725&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1225');
+  }
+
+  .parallax-section-3 {
+    background-image: url('https://images.unsplash.com/photo-1452274381522-521513015433?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=0a57c428b9ad4ee5966ae76df0a337f9');
+  }
+
+  .parallax-section-4 {
+    background-image: url('https://images.unsplash.com/photo-1451417379553-15d8e8f49cde?crop=entropy&dpr=2&fit=crop&fm=jpg&h=725&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1225');
+  }
+
+  .parallax-section-5 {
+    background-image: url('https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?crop=entropy&dpr=2&fit=crop&fm=jpg&h=725&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1225');
+  }
+
+  .parallax-section-6 {
+    background-image: url('https://images.unsplash.com/photo-1449057528837-7ca097b3520c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=c4aa76a6ccb14392f36bbfdbbef74da2');
+  }
+
+  .parallax-section-7 {
+    background-image: url('https://images.unsplash.com/photo-1447834353189-91c48abf20e1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=76f2dbd960ff7337c731ef6841385929');
+  }
+
+  .parallax-section-8 {
+    background-image: url('https://images.unsplash.com/photo-1448518184296-a22facb4446f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=5628d2e809c6bc15ffaf8d3ee2fd7f6e');
+  }
+
+  .parallax-section-9 {
+    background-image: url('https://images.unsplash.com/photo-1430329429612-babb42f88673?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=9b662c4e6a2cadf088ceeb5507c19f42');
+  }
+
+  .parallax-section-10 {
+    background-image: url('https://images.unsplash.com/photo-1427435150519-42d9bcd0aa81?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=10d1cfc208c8ed5ed1160e851eabce1d');
+  }
+
+  .parallax-section-11 {
+      background-image: url('https://images.unsplash.com/photo-1442589031151-61d5645469d7?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=86aed4d82f9ab1324e46ae97b4cd98e1');
+  }
+
+  .parallax-section-12 {
+    background-image: url('https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=99451809786f5c6a94f74f20e7ad22a0');
+  }
+
+  .parallax-section-13 {
+    background-image: url('https://images.unsplash.com/photo-1434472007488-8d47f604f644?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=30ca9a5c89899d890ca9c9e7bf959466');
+  }
+
+  .parallax-section-14 {
+    background-image: url('https://images.unsplash.com/photo-1431492299426-2ea1ce429cc0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1093d1e7e6ee1f49ef9f70f267ee231b');
+  }
+
+  .parallax-section-15 {
+    background-image: url('https://images.unsplash.com/photo-1450101215322-bf5cd27642fc?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=eb4214b1bb04674628992a705ad3dc30');
+  }
+
+  .parallax-section-16 {
+    background-image: url('https://images.unsplash.com/photo-1444858345149-8ff40887589b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=f4b7fe44cd687b6707e1096b922b88cc');
+  }
+
+  .parallax-section-17 {
+    background-image: url('https://images.unsplash.com/photo-1440610049442-a5101a2204ba?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=de7d1fdc394d7e13da97e8b29c487e8d');
+  }
+
+  .parallax-section-18 {
+    background-image: url('https://images.unsplash.com/photo-1450849608880-6f787542c88a?crop=entropy&dpr=2&fit=crop&fm=jpg&h=675&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1225');
+  }
