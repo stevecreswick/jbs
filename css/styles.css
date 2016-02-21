@@ -1,21 +1,255 @@
 body {
   color: cornflowerblue;
-  width: 18000px;
-  background-image: url('../images/jbs-website-mockup.jpg');
+  height: 100%;
+}
+
+.page-container {
+  width: 23800px;
+  height: 100%;
+  position: absolute;
+}
+
+.album-cover {
+  /*max-width: 1024px;*/
+  min-height: 100%;
+  margin: -10px -10px -10px -10px;
+  height: 100%;
+  width: 4.3%;
+  top: 0;
+  left: 0;
+  bottom:0;
+  display: inline-block;
+  position: absolute;
+  background-image: url('https://upload.wikimedia.org/wikipedia/en/9/98/Foo_fighters_in_your_honor.jpg');
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .photo-container {
-
   display: inline-block;
-  margin-left: 50px;
-  height: 50%;
-  width: 50%;
+  height: 75%;
+  width: 2.09%;
   text-align: middle;
   vertical-align: center;
-
+  background-color: red;
 
   -webkit-box-shadow: -3px 4px 5px 0px rgba(125,125,125,1);
   -moz-box-shadow: -3px 4px 5px 0px rgba(125,125,125,1);
   box-shadow: -3px 4px 5px 0px rgba(125,125,125,1);
 }
+
+.inner-photo {
+  background-color: green;
+  height: 85%;
+  width: 85%;
+  margin: 7.5% 7.5% 7.5% 7.5%;
+}
+
+.lyric-container {
+  display: inline-block;
+  height: 75%;
+  width: 2.09%;
+  text-align: middle;
+}
+
+.full-page-video {
+  width: 4.45%;
+  background-color: blue;
+  margin-top: -10px;
+  height: 100%;
+}
+
+.credits-container {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 4.45%;
+  background-color: green;
+  margin-top: -10px;
+}
+
+/* Group One */
+
+/* Sequence One */
+.photo-container-one {
+  position: absolute;
+  top: 10%;
+  left: 5.35%;
+}
+
+.photo-container-two {
+  position: absolute;
+  top: 10%;
+  left: 8.49%;
+}
+
+
+.lyric-container-one {
+  position: absolute;
+  top: 10%;
+  left: 11.63%;
+}
+
+/* Sequence Two */
+.photo-container-three {
+  position: absolute;
+  top: 10%;
+  left: 14.77%;
+}
+
+.photo-container-four {
+  position: absolute;
+  top: 10%;
+  left: 17.91%;
+}
+
+.lyric-container-two {
+  position: absolute;
+  top: 10%;
+  left: 21.05%;
+}
+
+/* Sequence Three */
+.photo-container-five {
+  position: absolute;
+  top: 10%;
+  left: 24.19%;
+}
+
+.photo-container-six {
+  position: absolute;
+  top: 10%;
+  left: 27.33%;
+}
+
+.full-page-video-one {
+  position: absolute;;
+  top:0;
+  left: 30.47%;
+}
+
+
+/* Group Two */
+
+/* Sequence Four */
+.photo-container-seven {
+  position: absolute;
+  top: 10%;
+  left: 35.82%;
+}
+
+.photo-container-eight {
+  position: absolute;
+  top: 10%;
+  left: 38.96%;
+}
+
+.lyric-container-three {
+  position: absolute;
+  top: 10%;
+  left: 42.10%;
+}
+
+/* Sequence Five */
+.photo-container-nine {
+  position: absolute;
+  top: 10%;
+  left: 45.24%;
+}
+
+.photo-container-ten {
+  position: absolute;
+  top: 10%;
+  left: 48.38%;
+}
+
+.lyric-container-four {
+  position: absolute;
+  top: 10%;
+  left: 51.52%;
+}
+
+/* Sequence Six */
+
+.photo-container-eleven {
+  position: absolute;
+  top: 10%;
+  left: 54.66%;
+}
+
+.photo-container-twelve {
+  position: absolute;
+  top: 10%;
+  left: 57.8%;
+}
+
+.full-page-video-two {
+  position: absolute;
+  top: 0;
+  left: 60.94%;
+}
+
+/* Group Three */
+
+/* Sequence Seven */
+
+.photo-container-thirteen {
+  position: absolute;
+  top: 10%;
+  left: 66.29%;
+}
+
+.photo-container-fourteen {
+  position: absolute;
+  top: 10%;
+  left: 69.43%;
+}
+
+.lyric-container-five {
+  position: absolute;
+  top: 10%;
+  left: 72.57%;
+}
+
+/* Sequence Eight */
+
+.photo-container-fifteen {
+  position: absolute;
+  top: 10%;
+  left: 75.71%;
+}
+
+.photo-container-sixteen {
+  position: absolute;
+  top: 10%;
+  left: 78.55%;
+}
+
+.lyric-container-six {
+  position: absolute;
+  top: 10%;
+  left: 81.69%;
+}
+
+/* Sequence Nine */
+
+.photo-container-seventeen {
+  position: absolute;
+  top: 10%;
+  left: 84.83%;
+}
+
+.photo-container-eighteen {
+  position: absolute;
+  top: 10%;
+  left: 87.97%;
+}
+
+.full-page-video-three {
+  position: absolute;
+  top: 0;
+  left: 91.11%;
+}
+
+/* Credits */
