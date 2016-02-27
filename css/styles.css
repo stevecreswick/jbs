@@ -11,37 +11,29 @@ body {
   width: 23800px;
   height: 100%;
   margin: 0 auto;
-  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
-  /*display: table;*/
-
 }
 
 /* Containers */
 
   .wide-container {
     width: 4.45%;
-    margin-top: -10px;
+    /*margin-top: -10px;*/
     height: 100%;
     content: " ";
-    position: absolute;
     display: inline-block;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
 
   .small-container {
-    /*display: table-cell;*/
-    /*vertical-align: middle;*/
-    height: 75%;
+    height: 30em;
     width: 2.09%;
     content: " ";
     text-align: center;
-    /*position: absolute;*/
   }
 
   .photo-container {
@@ -60,7 +52,7 @@ body {
   }
 
   .parallax-container {
-    background-position: center top;
+    background-position: 0 left;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -70,33 +62,8 @@ body {
     color: cornflowerblue;
     font-size: 1.5em;
     line-height: 2em;
-    /*top: 5%;*/
     white-space: normal;
   }
-
-  /* This parent can be any width and height */
-.block {
-  text-align: center;
-
-  /* May want to do this if there is risk the container may be narrower than the element inside */
-  white-space: nowrap;
-}
-
-/* The ghost, nudged to maintain perfect centering */
-.block:before {
-  content: '';
-  display: inline-block;
-  /*height: 100%;*/
-  vertical-align: middle;
-  margin-right: -0.25em; /* Adjusts for spacing */
-}
-
-/* The element to be centered, can also be of any width and height */
-.centered {
-  display: inline-block;
-  vertical-align: middle;
-  /*width: 300px;*/
-}
 
 /* Website Container Sequence */
 
@@ -104,14 +71,10 @@ body {
     content: " ";
     height: 100%;
     margin-right: -10px;
-    /*margin: -10px -10px -10px -10px;
-    width: 4.3%;
-    left: 0;
-    bottom:0;*/
     background-image: url('https://images.unsplash.com/photo-1436407886995-41f8f5ee43ad?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=6f2e9aea816890a2eff88bc302840266');
   }
 
-  .photo-container-one {
+  /*.photo-container-one {
     left: 5.35%;
   }
 
@@ -141,14 +104,14 @@ body {
 
   .photo-container-six {
     left: 27.33%;
-  }
+  }*/
 
   .full-page-video-one {
-    left: 30.47%;
+    /*left: 30.47%;*/
     background-image: url('https://images.unsplash.com/photo-1447877015176-3099cb49cd6a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=1f5b6605ce035d751113e7c92cfd2116')
   }
 
-  .photo-container-seven {
+  /*.photo-container-seven {
     left: 35.82%;
   }
 
@@ -178,14 +141,14 @@ body {
 
   .photo-container-twelve {
     left: 57.8%;
-  }
+  }*/
 
   .full-page-video-two {
-    left: 60.94%;
+    /*left: 60.94%;*/
     background-image: url('https://images.unsplash.com/photo-1446776858070-70c3d5ed6758?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=deb97ae31a798491f0cfd1afda07e6be')
   }
 
-  .photo-container-thirteen {
+  /*.photo-container-thirteen {
     left: 66.29%;
   }
 
@@ -215,15 +178,15 @@ body {
 
   .photo-container-eighteen {
     left: 87.97%;
-  }
+  }*/
 
   .full-page-video-three {
-    left: 91.11%;
+    /*left: 91.11%;*/
     background-image: url('https://images.unsplash.com/photo-1443890923422-7819ed4101c0?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=d08144fcf8610012628be9e43708f226');
   }
 
   .credits-container {
-    right: 0;
+    /*right: 0;*/
     background-image: url('https://images.unsplash.com/photo-1439556838232-994e4c0d3b7c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=2adfe9888f170b1f1431e249182c1937');
   }
 
