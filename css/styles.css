@@ -8,12 +8,12 @@ body {
 }
 
 .page-container {
-  width: 23800px;
+  width: 50000px;
   height: 100%;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -30,9 +30,21 @@ body {
     background-size: contain;
   }
 
+  .group {
+    float: right;
+    height: 100%;
+    width: 5000px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 75px 0 75px;
+  }
+
   .small-container {
     height: 30em;
-    width: 2.09%;
+    width: 10%;
     content: " ";
     text-align: center;
   }
@@ -53,7 +65,7 @@ body {
   }
 
   .parallax-container {
-    background-position: 0 left;
+    background-position: 0px 0px, center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -61,6 +73,7 @@ body {
 
   .lyrics {
     color: cornflowerblue;
+    padding-top: 2em;
     font-size: 1.5em;
     line-height: 2em;
     white-space: normal;
