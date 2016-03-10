@@ -8,7 +8,7 @@ body {
 }
 
 .page-container {
-  width: 18250px;
+  width: 18800px;
   height: 100%;
   /*margin: 0 auto;*/
   display: flex;
@@ -78,7 +78,8 @@ body {
     background-position: 0px 0px, center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size:100%;
+width:100%;
   }
 
   .lyrics {
